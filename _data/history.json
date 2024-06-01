@@ -1,0 +1,27 @@
+[
+    {
+        "year": "1993",
+        "name": "Born",
+        "description": "I was born and spent my childhood in the countryside, nurturing my love for nature from a young age.<br>I was a quiet kid who liked drawing and creating stories, and hoped that one day I could use my imagination for my own good."
+    },
+    {
+        "year": "2011",
+        "name": "Civil Engineering",
+        "description": "Comming up from high-school with no idea of what I wanted for my future, I ended up in Civil Enginnering.<br>I realised it was not what I wanted, but I still struggled for 2 years hoping to miracously change my mind.<br>In the end, I finally decided to follow my hearth and go to another course based in one of the few disciplines I liked: programming."
+    },
+    {
+        "year": "2013",
+        "name": "Informatics Engineering",
+        "description": "In Informatics Engineering I finally discovered my passion. I did my first degree and masters in this area, and specialized in computer graphics and multimedia.<br>During this time I grew up a lot as a person.<br>For my thesis I created a Gamification framework and published <a href='https://www.igi-global.com/chapter/gamification-design-in-education/284122' target='_blank'>an article about it</a>, which I am quite proud about."
+    },
+    {
+        "year": "2017",
+        "name": "Internship",
+        "description": "Before finishing my degree, I got to have my first semi-professional experience.<br>In this curricular internship I discovered my love for developing mobile applications."
+    },
+    {
+        "year": "2018",
+        "name": "Professional Consultant",
+        "description": "I got my first professional experience as a software consultant developing Android and later changed to other areas such as Unity and Flutter.<br>At this company, I learned to use a lot of different technologies, understood the real process of delivering a software product, comunicated with managers and clients, gave presentations, taught interns, and even managed teams myself.<br>Still, I consider the friendships I made to be the most important."
+    }
+]

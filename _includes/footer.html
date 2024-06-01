@@ -1,0 +1,10 @@
+<footer>
+    <p>Gil Moutinho 2024</p>
+    <div>
+        {% for media in site.data.social-media %}
+            <a href="{{ media.url }}">
+                <img src="{{ media.icon }}" alt="{{ media.name }}" />
+            </a>
+        {% endfor %}
+    </div>
+</footer>

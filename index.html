@@ -1,0 +1,30 @@
+---
+layout: home
+---
+
+<div class="container">
+    <div class="aboutme">
+        <h1>About Me</h1>
+        <div class="aboutme-text">
+            <p>I'm Gil Moutinho, a professional Software Enginner.<br>In this space, I hope to introduce myself and tell a bit about my studies and professional life, including my favorite projects I worked on.<br>Scroll down for a short timeline about my life, or click on the tab Projects to see a bit of my work.<br>If you are interested, you can contact me via <a href="https://www.linkedin.com/in/gil-moutinho/" target="_blank">LinkedIn</a>.</p>
+            <img src="/assets/images/logo.png" alt="My Logo">
+        </div>
+    </div>
+    <div class="interests">
+        <p><b>Some of my interests:</b>
+            {% for interest in site.data.interests %}
+                <span>{{ interest.name }}</span>
+            {% endfor %}
+        </p>
+    </div>
+    <div class="history">
+        <h1>History</h1>
+        <p>This is a very synthesized timeline of my life. Focusing mainly on my studies and professional experience.</p>
+        <div class="history-container">
+            {% for item in site.data.history %}
+                {% include history-item.html item=item %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/assets/js/fade-in.js"></script>

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "mobile",
+        "name": "Mobile"
+    },
+    {
+        "id": "games",
+        "name": "Games"
+    },
+    {
+        "id": "other",
+        "name": "Other"
+    },
+    {
+        "id": "teambuilding",
+        "name": "Team Building"
+    }
+]

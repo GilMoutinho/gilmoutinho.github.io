@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Job Search App",
+        "year": "2017",
+        "icon": "/assets/images/ios.png",
+        "keywords": "Mobile Development (iOS); Back-end Development; UI/UX Design",
+        "description": "This was an application for job search assistance containing an integrated chat bot.<br>The application allowed the creation of CVs and interaction with job offers scrapped form the web.",
+        "category": "mobile",
+        "highlighted": true
+    },
+    {
+        "name": "Fire Awareness Game",
+        "year": "2018",
+        "icon": "/assets/images/unity.png",
+        "keywords": "Game Design; Game Development (Unity3D); Game Testing",
+        "description": "The goal of this simulation game was to raise awareness about forest fires in Portugal.<br>Players had to cut bushes and dead trees, and plant new species in a burnt area while following rules and recomendations of the competent authorities. While progressing, the player gained access to new tools and seeds.",
+        "category": "games",
+        "highlighted": false
+    },
+    {
+        "name": "Campus Navigation App",
+        "year": "2018",
+        "icon": "/assets/images/react.png",
+        "keywords": "Mobile Development (React Native); Navigation; UI/UX Design",
+        "description": "This application guided people inside a campus using Bluetooth beacons.<br>The app also showed blueprints and 360 views in some places.<br>It was developed having in consideration people with disabilities (motor or visual).",
+        "category": "mobile",
+        "highlighted": false
+    },
+    {
+        "name": "Drawing App",
+        "year": "2018",
+        "icon": "/assets/images/dotnet.png",
+        "keywords": "Voice recognition; Computer vision; Image processing",
+        "description": "This was a drawing application that allowed users to draw shapes and manipulate their color, size and position using voice commands or webcam input.<br>Users could show a certain shape or color to the computer's camera and it would trigger a certain action in the app.",
+        "category": "other",
+        "highlighted": false
+    },
+    {
+        "name": "Gamification Framework",
+        "year": "2018-2019",
+        "icon": "/assets/images/book.png",
+        "keywords": "Gamification; Education",
+        "description": "I created and published an article about a new framework for implementing gamification design in projects, based on an extensive study of existing alternatives.<br>To evaluate the effectiveness of the new framework, a Moodle plugin was developed according to its principles and tested by volunteers. The results were then analyzed.",
+        "category": "other",
+        "highlighted": true
+    },
+    {
+        "name": "Tabletop Kiosk App",
+        "year": "2018-2020",
+        "icon": "/assets/images/android.png",
+        "keywords": "Mobile Development (Android); Analysis and planning; CI/CD",
+        "description": "This was a kiosk-like application for restaurants that allowed clients to order and pay for food using a tablet.<br>The application was personalized for each client and could include games and authentication.",
+        "category": "mobile",
+        "highlighted": true
+    },
+    {
+        "name": "Construction Inventory App",
+        "year": "2020",
+        "icon": "/assets/images/android.png",
+        "keywords": "Mobile Development (Android); Navigation",
+        "description": "The purpose of this application was to be used by construction site workers to find and manage equipment.<br>It used OpenStreetMap for navigation and connected to Bluetooth beacons to track equipment with more precision.",
+        "category": "mobile",
+        "highlighted": false
+    },
+    {
+        "name": "Team Building Game",
+        "year": "2020-2022",
+        "icon": "/assets/images/unity.png",
+        "keywords": "Game Development (Unity3D); Game Testing; CI/CD",
+        "description": "This was a serious game used for team building activities and spreading company culture.<br>The application contained multiple mini games and allowed video-chatting, photo sharing and live presentations.",
+        "category": "games",
+        "highlighted": true
+    },
+    {
+        "name": "VR Training App",
+        "year": "2022",
+        "icon": "/assets/images/unity.png",
+        "keywords": "Game Development (Unity3D); VR; Game Testing; Cloud Computing",
+        "description": "This VR application for Oculus Quest had the purpose of training employees.<br>The application put workers in a virtual environment where they could get lectured and interact with colleagues.",
+        "category": "games",
+        "highlighted": true
+    },
+    {
+        "name": "3D Meetings App",
+        "year": "2022-2023",
+        "icon": "/assets/images/unity.png",
+        "keywords": "Team Management; Analysis and planning; CI/CD",
+        "description": "During this project I managed a team developing an application for having meetings in 3D.<br>The application allowed video-chatting, calendar management with scheduling of meetings, and avatar personalization.",
+        "category": "games",
+        "highlighted": true
+    },
+    {
+        "name": "Home Automation Portal",
+        "year": "2023-2024",
+        "icon": "/assets/images/atvise.png",
+        "keywords": "Web Development (Atvise); SCADA; Home Automation",
+        "description": "I worked in an home automation online portal for a short-term housing rentals company.<br>The portal allowed to remotly control and diagnose appliances, and had different roles for each staff member working for the company.",
+        "category": "other"
+    },
+    {
+        "name": "AR Navigation App",
+        "year": "2024",
+        "icon": "/assets/images/ios.png",
+        "keywords": "Mobile Development (iOS); AR",
+        "description": "This prototype application used AR to visualize arrows forming a path to a prize in the real world.<br>Users could create their own paths and save them using ARWorldMap.",
+        "category": "mobile",
+        "highlighted": false
+    },
+    {
+        "name": "FIFA League",
+        "year": "2019",
+        "icon": "/assets/images/trophy.png",
+        "keywords": "Tournament Organization",
+        "description": "Despite being a PES guy, I organized a FIFA 19 league with office coleagues to create a sense of bonding.<br>League games were played depending on the availability of players and a personalized trophy was awarded to the winner.",
+        "category": "teambuilding",
+        "highlighted": false
+    },
+    {
+        "name": "Intercompany Futsal Match",
+        "year": "2023",
+        "icon": "/assets/images/ball.png",
+        "keywords": "People Mobilization",
+        "description": "I was able to organize a futsal match between players of my company (including me) and players from a neighbour company.<br>It was a tight game and everyone enjoyed it.",
+        "category": "teambuilding",
+        "highlighted": false
+    },
+    {
+        "name": "Ping-Pong Invitational",
+        "year": "2023-2024",
+        "icon": "/assets/images/trophy.png",
+        "keywords": "Tournament Organization",
+        "description": "To raise the team's morale, I organized a ping-pong tournament that spanned from a few months.<br>The tournament followed double-elimination rules with best-of-5 games.<br>In the end, medals for the first 3 places were awarded.",
+        "category": "teambuilding",
+        "highlighted": false
+    }
+]

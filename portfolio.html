@@ -1,0 +1,40 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<div class="container">
+    <h1>Projects</h1>
+    <p>In this page, you can check out my favourite projects that I have worked on. Most of them were made under a NDA and are not open-source, but you can check my <a href="https://github.com/GilMoutinho/" target="_blank">GitHub</a> and <a href="https://bitbucket.org/1130632/" target="_blank">Bitbucket</a> to see some stuff I made available.<br>Since I love interacting with my colleagues and organizing events, I also included team building activities I made happen.</p>
+    <br>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'highlights')" id="defaultOpen">Highlights</button>
+        {% for category in site.data.categories %}
+            <button class="tablinks" onclick="openTab(event, '{{ category.id }}')">{{ category.name }}</button>
+        {% endfor %}
+    </div>
+      
+    <div id="highlights" class="tabcontent">
+        <div class="grid">
+            {% for project in site.data.projects %}
+                {% if project.highlighted %}
+                    {% include project.html project=project %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% for category in site.data.categories %}
+        <div id="{{ category.id }}" class="tabcontent">
+            <div class="grid">
+                {% for project in site.data.projects %}
+                    {% if project.category == category.id %}
+                        {% include project.html project=project %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+
+    <script type="text/javascript" src="/assets/js/open-tab.js"></script>
+</div>

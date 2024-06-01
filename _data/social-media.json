@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LinkedIn",
+        "icon": "/assets/images/linkedin.png",
+        "url": "https://www.linkedin.com/in/gil-moutinho/"
+    },
+    {
+        "name": "GitHub",
+        "icon": "/assets/images/github.png",
+        "url": "https://github.com/GilMoutinho/"
+    },
+    {
+        "name": "Bitbucket",
+        "icon": "/assets/images/bitbucket.png",
+        "url": "https://bitbucket.org/1130632/"
+    }
+]
